@@ -11,9 +11,10 @@ I build AI products end to end: retrieval and RAG pipelines, LLM and voice featu
 | Project | What it does | Stack |
 | --- | --- | --- |
 | [**mapr**](https://github.com/saent-x/mapr) | Live OSINT map. A Rust worker ingests news feeds, geocodes, scores severity, runs NER and embeds events; a grounded RAG assistant answers questions over them. Self-hosts with one `docker compose`. | Rust · Convex · TypeScript · React · MapLibre GL |
-| [**prepme.ai**](https://github.com/saent-x/prepme.ai) | AI mock-interview app with live video, chat and background jobs. [Live demo](https://prepme-ai.vercel.app) | SvelteKit · Postgres/Drizzle · Inngest · Stream |
+| [**prepme.ai**](https://github.com/saent-x/prepme.ai) | AI mock interviews. An OpenAI Realtime voice agent joins a live video call as your interviewer; an Inngest pipeline turns the transcript into a GPT-4o summary and a grounded follow-up chat. [Live](https://prepme-ai.vercel.app) | SvelteKit · OpenAI Realtime · Stream · Inngest · Drizzle/Postgres |
 | [**laz**](https://github.com/saent-x/laz) | Type-safe RPC layer between Loco.rs servers and Rust web clients, with compile-time endpoint discovery. | Rust · proc macros |
 | [**Automotive IDS**](https://github.com/saent-x/Automotive-IDS-ML) | Hybrid intrusion detection for in-vehicle CAN networks: supervised signature detection plus unsupervised anomaly detection. | Python · Go |
+| [**CAN anomaly detection**](https://github.com/saent-x/nn-anomaly-detection) | PyTorch network exported to ONNX that flags attacks on a live SocketCAN bus. | Python · PyTorch · ONNX Runtime |
 | [**Book Talk**](https://booktalk.stbrn.studio) | Free PDF/EPUB-to-audiobook app built on open-source TTS. | Open-source TTS |
 
 ### Toolbox
